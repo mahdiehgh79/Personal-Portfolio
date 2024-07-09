@@ -713,3 +713,62 @@ span {
   font-size: 2.4rem;
   color: #333;
 }
+
+/* BREAKPOINTS */
+@media (max-width: 1430px) {
+  .home-img img {
+    width: 26%;
+  }
+}
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+
+  .home .profession-container {
+    height: 85.8rem;
+  }
+  .home .profession-container .profession-box {
+    right: -12px;
+    height: 85.8rem;
+  }
+  .home .profession-container .overlay {
+    right: -9rem;
+  }
+  .home-img img {
+    width: 26%;
+  }
+}
+@media (max-width: 1024px) {
+  .header {
+    padding: 2rem 3%;
+  }
+  section {
+    padding: 10rem 3% 2rem;
+  }
+  .home .profession-container .profession-box {
+    right: -22rem;
+  }
+  .home-img img {
+    width: 25%;
+    right: -0.01rem;
+  }
+  .home .profession-container .overlay {
+    right: -15rem;
+  }
+}
+@media (max-width: 991px) {
+  .home .home-content {
+    max-width: 50rem;
+  }
+  .home .profession-container .profession-box {
+    right: -45rem;
+  }
+  .home .profession-container .overlay {
+    right: -39.5rem;
+  }
+  .home-img img {
+    display: none;
+  }
+}
+
